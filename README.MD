@@ -24,21 +24,3 @@ This tool is designed for **authorized security testing only**. You must have ex
 
 ```bash
 pkg update && pkg upgrade -y && pkg install git python -y && git clone https://github.com/insaneowl-spec/WA_CRUSH-.git && cd WA_CRUSH- && bash install.sh
-
-
-⚡ Requirements
-Android phone with Termux
-Telegram account
-Python 3.8+
-Internet connection
-📸 Screenshots
-Coming soon
-
-👨‍💻 Developer
-INSANE OWL - Cybersecurity Professional
-
-📄 License
-For authorized security testing purposes only. Use at your own risk.
-
-⭐ Support
-Star the repository if you find it useful!
