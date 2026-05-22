@@ -18,7 +18,15 @@ This tool is for **authorized penetration testing only**. You must have explicit
 - Auto-fetches your Chat ID
 - Config saved for future use
 
-## Installation (One Command)
+## Installation (Step by Step for Termux)
+
+Copy and paste each command one at a time:
 
 ```bash
-pkg update && pkg upgrade -y && pkg install git python -y && git clone https://github.com/insaneowl-spec/WA_CRUSH-.git && cd WA_CRUSH- && bash install.sh && crush
+pkg update -y && pkg upgrade -y
+pkg install python git -y
+pip install requests
+git clone https://github.com/insaneowl-spec/WA_CRUSH-.git
+cd WA_CRUSH-
+bash install.sh
+crush
