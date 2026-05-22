@@ -1,26 +1,24 @@
-# 🦉 WA CRUSH - WhatsApp Account Termination Tool
+# WA CRUSH - WhatsApp Account Termination Tool
 
-> **Version 1.0 | Termux Edition**
 > **Developer: INSANE OWL**
-> **Repository: https://github.com/insaneowl-spec/WA_CRUSH-**
+> **Version: 1.0 | Termux Edition**
+> **For Authorized Security Testing Only**
 
-## ⚠️ LEGAL NOTICE
+## LEGAL NOTICE
 
-This tool is designed for **authorized security testing only**. You must have explicit permission to test the target phone number. Unauthorized use is illegal and unethical. The developer is not responsible for any misuse.
+This tool is for **authorized penetration testing only**. You must have explicit permission to test the target phone number. Unauthorized use is illegal. The developer is not responsible for misuse.
 
-## 🔥 Features
+## Features
 
-- **Telegram Controlled** - Send commands from anywhere
-- **Interactive Setup** - First-run configuration wizard
-- **7 Attack Vectors** - Multiple simultaneous attack methods
-- **60-150 Threads** - Maximum aggression
-- **IRREVERSIBLE** - Permanently bans the WhatsApp number
-- **Real-time Status** - Monitor attack progress via Telegram
-- **Persistent Config** - Credentials saved for future use
+- Telegram controlled - attack from anywhere
+- 7 attack vectors simultaneously
+- 60-150 threads for maximum damage
+- IRREVERSIBLE - permanently bans the number
+- First-run setup wizard
+- Auto-fetches your Chat ID
+- Config saved for future use
 
-## 📱 Installation (Termux)
-
-### One-line Install:
+## Installation (One Command)
 
 ```bash
-pkg update && pkg upgrade -y && pkg install git python -y && git clone https://github.com/insaneowl-spec/WA_CRUSH-.git && cd WA_CRUSH- && bash install.sh
+pkg update && pkg upgrade -y && pkg install git python -y && git clone https://github.com/insaneowl-spec/WA_CRUSH-.git && cd WA_CRUSH- && bash install.sh && crush
